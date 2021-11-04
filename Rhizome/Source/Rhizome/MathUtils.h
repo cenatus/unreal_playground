@@ -16,4 +16,7 @@ class RHIZOME_API UMathUtils : public UBlueprintFunctionLibrary
 		UFUNCTION(BlueprintCallable, Category = "RhizomeMathUtils")
 		static float exponentialDecay(float initialValue, float halfLife, int currentStep);
 
+		UFUNCTION(BlueprintCallable, Category = "RhizomeMathUtils")
+		static float gaussianRandom(float mu, float sigma);
+
 };
