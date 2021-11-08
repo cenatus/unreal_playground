@@ -4,6 +4,7 @@
 #include "MathUtils.h"
 #include <math.h>
 #include <random>
+#include "Misc/Guid.h"
 
 float UMathUtils::exponentialDecay(float initialValue, float halfLife, int currentStep)
 {
