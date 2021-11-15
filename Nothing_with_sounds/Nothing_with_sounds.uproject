@@ -11,6 +11,10 @@
 		{
 			"Name": "ResonanceAudio",
 			"Enabled": true
+		},
+		{
+			"Name": "Spatialization",
+			"Enabled": true
 		}
 	]
 }
