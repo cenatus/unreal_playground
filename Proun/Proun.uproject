@@ -20,6 +20,10 @@
 				"Android",
 				"HoloLens"
 			]
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
