@@ -13,5 +13,9 @@ UCLASS()
 class PROUN_API UMathUtils : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	
+	UFUNCTION(BlueprintCallable, Category = "RhizomeMathUtils")
+		static float exponentialDecay(float initialValue, float halfLife, int currentStep);
+
+	UFUNCTION(BlueprintCallable, Category = "RhizomeMathUtils")
+		static float gaussianRandom(float mu, float sigma);
 };
